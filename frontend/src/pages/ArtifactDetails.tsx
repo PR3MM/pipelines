@@ -105,7 +105,7 @@ class ArtifactDetails extends Page<{}, ArtifactDetailsState> {
     return this.load();
   }
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     if (!this.state.artifact) {
       return (
         <div className={commonCss.page}>

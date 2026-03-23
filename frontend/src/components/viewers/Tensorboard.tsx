@@ -131,7 +131,7 @@ class TensorboardViewer extends Viewer<TensorboardViewerProps, TensorboardViewer
     this.setStateSafe({ tfImage: e.target.value });
   };
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     return (
       <div>
         {this.state.errorMessage && <div className={css.errorText}>{this.state.errorMessage}</div>}

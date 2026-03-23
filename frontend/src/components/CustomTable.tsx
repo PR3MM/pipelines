@@ -295,7 +295,7 @@ export default class CustomTable extends React.Component<CustomTableProps, Custo
     this._debouncedFilterRequest.cancel();
   }
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     const { filterString, pageSize, sortBy, sortOrder } = this.state;
     const numSelected = (this.props.selectedIds || []).length;
     const totalFlex = this.props.columns.reduce((total, c) => (total += c.flex || 1), 0);

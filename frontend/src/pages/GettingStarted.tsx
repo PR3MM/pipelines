@@ -119,7 +119,7 @@ export class GettingStarted extends Page<{}, { links: string[] }> {
     this.componentDidMount();
   }
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     return (
       <div className={classes(commonCss.page, padding(20, 'lr'), 'kfp-start-page')}>
         <Markdown options={OPTIONS}>

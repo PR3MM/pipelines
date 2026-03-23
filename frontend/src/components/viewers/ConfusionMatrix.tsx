@@ -195,7 +195,7 @@ class ConfusionMatrix extends Viewer<ConfusionMatrixProps, ConfusionMatrixState>
     return 'Confusion matrix';
   }
 
-  public render(): JSX.Element | null {
+  public render(): React.JSX.Element | null {
     if (!this._config) {
       return null;
     }

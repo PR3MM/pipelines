@@ -61,7 +61,7 @@ class RecurringRunDetailsV2 extends Page<{}, RecurringRunConfigState> {
     };
   }
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     const { run } = this.state;
     let runDetails: Array<KeyValue<string>> = [];
     let inputParameters: Array<KeyValue<string>> = [];

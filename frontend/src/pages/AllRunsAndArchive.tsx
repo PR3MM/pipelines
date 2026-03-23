@@ -41,7 +41,7 @@ class AllRunsAndArchive extends Page<AllRunsAndArchiveProps, AllRunsAndArchiveSt
     return { actions: {}, breadcrumbs: [], pageTitle: '' };
   }
 
-  public render(): JSX.Element {
+  public render(): React.JSX.Element {
     return (
       <div className={classes(commonCss.page, padding(20, 't'))}>
         <MD2Tabs
